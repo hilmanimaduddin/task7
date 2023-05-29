@@ -1,0 +1,102 @@
+/* body */
+
+.bodi {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 920px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px gray;
+}
+
+.bodi .title {
+  text-align: center;
+  margin: 0 20px 20px;
+}
+
+.bodi .content1 {
+  display: flex;
+  margin: auto;
+  max-width: 920px;
+  width: auto;
+  justify-content: center;
+}
+
+.bodi .content1 .image {
+  width: auto;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.bodi .content1 img {
+  box-shadow: 0 0 20px gray;
+  width: 100%;
+  max-width: 400px;
+}
+
+.bodi .content1 .content2 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.bodi .content1 .content2 .duration h4,
+.content3 h4 {
+  margin: 10px;
+}
+
+.bodi .content1 .content2 .content3 .techno,
+.technoo {
+  display: flex;
+}
+
+.bodi .content1 .content2 .duration .duration1,
+.duration2,
+.content3 .techno .techno1,
+.techno2,
+.technoo .techno3,
+.techno4 {
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+
+.bodi .text {
+  margin: auto;
+  max-width: 920px;
+  text-align: justify;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .bodi {
+    width: 90%;
+    padding: 0;
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .bodi .content1 {
+    display: grid;
+  }
+
+  .bodi .content1 {
+    max-width: 90%;
+  }
+
+  .bodi .content1 .content2 {
+    margin-left: 15px;
+    max-width: 90%;
+  }
+
+  .bodi .text {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .bodi .title h1 {
+    font-size: 25px;
+  }
+}
